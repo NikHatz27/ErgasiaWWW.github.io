@@ -1,0 +1,125 @@
+body {
+    background-image: url(images/57441.jpg);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: transparent;
+    color: rgb(2, 2, 2);
+    text-align: center;
+    padding: 5px;
+    font-size: 2rem;
+}
+nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 0 15rem;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+.hidden {
+    display: none;
+}
+#biographyContent {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #020202;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+#biographyContent p{
+    text-align: center;
+    margin-bottom: 15px;
+    color: aliceblue;
+}
+@media only screen and (max-width: 600px) {
+    #biographyContent {
+        font-size: 16px;
+    }
+}
+#photosContent {
+    text-align: center; 
+}
+#photosContent img {
+    height: 300px; 
+}
+#discographyContent{
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#discographyContent p1{
+    text-align: center;
+    margin-bottom: 15px;
+    color: aliceblue;
+    display: flow-root;
+}
+#linksContent{
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#linksContent li{
+    text-align: center;
+    margin-bottom: 15px;
+    color: aliceblue;
+    display: flow-root;
+    font-size: 2rem;
+}
+#loginForm {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+}
+#editContent {
+   
+    display: none;
+}
+#editContent p {
+    margin-bottom: 16px;
+}
+
+#editContent button {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#editContent button:hover {
+    background-color: #d32f2f;
+}
+
+#editContent button, #editContent a {
+    margin-right: 10px;
+}
+
+
+#logoutLink {
+    color: #f44336;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#logoutLink:hover {
+    color: #d32f2f;
+}
